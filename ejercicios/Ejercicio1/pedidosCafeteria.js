@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Función opcional para sonido de completado
     function playCompletionSound() {
         const audio = new Audio();
-        audio.src = 'https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3';
+        //audio.src = 'https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3';
         audio.play().catch(e => console.log('No se pudo reproducir sonido:', e));
     }
 
