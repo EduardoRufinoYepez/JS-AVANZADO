@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#btn-cargar{
+    padding: 10px 20px;
+    background-color: #0051ff;
+    color: white;
+    border-radius: 10px;
+}
+
+#resultado {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.post{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}

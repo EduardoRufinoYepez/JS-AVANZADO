@@ -1,0 +1,31 @@
+
+    .order {
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        background: #f5f5f5;
+    }
+    .en-proceso {
+        border-left: 4px solid #FFA500;
+    }
+    .completado {
+        border-left: 4px solid #4CAF50;
+    }
+    progress {
+        margin-left: 10px;
+        width: 100px;
+    }
+    .status {
+        font-weight: bold;
+    }
+    #addOrderBtn {
+        padding: 10px 15px;
+        background: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    #addOrderBtn:hover {
+        background: #45a049;
+    }
